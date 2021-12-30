@@ -1,0 +1,23 @@
+.sprite-container {
+  width: 100%;
+  height: 100%;
+
+  .sprite {
+    image-rendering: pixelated;
+    width: 100%;
+    height: 100%;
+    animation: breathe 1.4s ease-in-out infinite;
+  }
+}
+
+@keyframes breathe {
+  0% {
+    transform: scale(1.002);
+  }
+  50% {
+    transform: scale(1.01);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

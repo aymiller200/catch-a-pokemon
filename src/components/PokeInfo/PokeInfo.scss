@@ -1,0 +1,24 @@
+.poke-info{
+  display: flex;
+  flex-direction: column;
+  font-family: 'Anton', sans-serif;
+  font-size: larger;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  width: 100%;
+  
+  .poke-name{
+    letter-spacing: .3rem;
+    margin: .5rem;
+  }
+
+  .poke-types{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    letter-spacing: .1rem;
+    border-top: 1px solid rgba(128, 128, 128, 0.418);
+    margin: 10px;
+    text-transform: capitalize;
+  }
+}
